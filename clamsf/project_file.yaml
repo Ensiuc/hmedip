@@ -1,0 +1,55 @@
+Author: Ensieh Habibi
+Project: HOMeDIP-clamsf
+Genome:
+  Name: mm10
+  Location: /quobyte/lasallegrp/genomes/mm10/mm10.fa
+Reads:
+  Samples:
+    grp1:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH417
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH495
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH540
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH55
+    grp2:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH276
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH418
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH420
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH58
+    grp3:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH184
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH356
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH366
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH75
+    grp4:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH369
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH377
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH505
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH57
+    grp5:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH177
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH358
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH367
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH419
+    grp6:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH278
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH297
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH500
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH556
+    grp7:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH321
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH501
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH511
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH77
+    grp8:
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH320
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH410
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH502
+      - /quobyte/lasallegrp/Ensi/project/hmedip/data/2024_HMEDIP_CFCFRM/AMH552
+  Controls: null
+Readtype: paired
+Peaktype: broad
+Aligner: bwa_mem
+Deduplicator: samtools
+Peakcaller: macs3
+Threads: 1
+
